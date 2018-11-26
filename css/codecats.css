@@ -1,0 +1,38 @@
+/* used for all pages*/
+
+.codecats {
+  background-color: green;
+  text-decoration-color: white;
+}
+
+##########################
+/* used for home page only*/
+
+#website-title{
+
+}
+
+#home-photo{
+
+}
+
+#bio{
+  background-color: #6495ED;
+}
+
+#bio ul li{
+    color: orange;
+}
+
+##########################
+/* used for current affairs page only*/
+
+
+
+##########################
+/* used for why this matters only*/
+
+
+
+##########################
+/* used for what can we do only*/
