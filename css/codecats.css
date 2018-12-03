@@ -20,17 +20,16 @@ h4{
 /* used for home page only*/
 
 
-.topnav {
-    background-color: darkseagreen;
-    overflow: hidden;
-    font: small-caps bold 24px/1 sans-serif;
-    padding-left: 25px;
-    padding-right: 25px;
-    width: 100%;
-}
 
 /* Style the links inside the navigation bar */
 .topnav a {
+  background-color: darkseagreen;
+  overflow: hidden;
+  font: small-caps bold 24px/1 sans-serif;
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 100%;
+
     float: left;
     color: #f2f2f2;
     text-align: center;
