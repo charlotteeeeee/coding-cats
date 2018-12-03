@@ -1,37 +1,58 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>current-affairs</title>
+  <title>Green Curious</title>
   <link href='css/bootstrap.css' rel='stylesheet'>
-  <link href='css/main.css' rel='stylesheet'>
+  <link href='css/codecats.css' rel='stylesheet'>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="css/codecats.css" >
+
 </head>
 
 <body>
-  <div class="container">
 
-  <!––navigation buttons––>
-
-  <div class="text-center">
-    <div class="row">
-        <div class="col-sm-6">
-          <div>
-            <img class="img-thumbnail" src='images/cat-pic.jpg'>
-            <p>DEFRA - Department for Environment, Food & Rural Affairs</p>
-            <small>'explain...'</small>
-          </div>
-        </div>
-        <div class="col-sm-6">
-          <div>
-            <img class="img-circle" src='images/cat-pic.jpg'>
-            <p>GREENPEACE</p>
-            <small>...</small>
-          </div>
-        </div>
+<div class="container codecats">
+    <div class = 'col-sm-3'>
+      <!--img class='img-responsive' src='images/logo.png'-->
+      <a href="home-page.html"><img class='img-responsive' src='images/logo.png' title="logo" alt="GreenCurious"></a>
     </div>
+
+<div class = 'col-sm-7'>
+    <h1>Current Affairs</h1>
+    <h4> Following twitter accounts such as @Greenpeace and @DefraGovUK are an easy way to keep up with current affairs regarding environmental issues! </h4>
+</div>
+  </div>
+  <div class="topnav">
+    <a href="navigation-test.html">Navigation Test</a>
+    <a href="test.html">Test</a>
+    <a href="what-can-we-do.html">To do</a>
+    <a href="why-this-matters.html">Why?</a>
   </div>
 
-  </div>
+<!-- Current Affairs - add containers to input 2 twitter panels green peace and Defra -->
+<div class='main'>
+<div class='container'>
+
+<div class="row">
+    <div class="col-sm-6">
+      <h3 class ="headers">G r e e n  p e a c e</h3>
+      <a class="twitter-timeline" href="https://twitter.com/Greenpeace?ref_src=twsrc%5Etfw">Tweets by Greenpeace</a>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
+      </script>
+    </div>
+    <div class="col-sm-6">
+      <h3>D e f r a </h3>
+      <a class="twitter-timeline" href="https://twitter.com/DefraGovUK?ref_src=twsrc%5Etfw">Tweets by DefraGovUK</a>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
+      </script>
+    </div>
+</div>
+</div>
+</div>
+</div>
+
+
+<script src='js/scripts.js'></script>
+<script src='js/bootstrap.min.js'></script>
 </body>
+
 </html>

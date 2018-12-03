@@ -75,6 +75,23 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAALElEQVQoU2
     color: orange;
 }
 
+div#myAnimation {
+  animation: move 8s infinite;
+}
+
+@keyframes move {
+  0% {
+    margin-top: 0px;
+  }
+  50% {
+    margin-top: 400px;
+  }
+  100% {
+    margin-top: 0px;
+  }
+}
+
+
 ##########################
 /* used for current affairs page only*/
 
