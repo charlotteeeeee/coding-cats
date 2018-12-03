@@ -1,12 +1,63 @@
 /* used for all pages*/
 
 .codecats {
-  background-color: green;
-  color: white;
+  background-color: mediumseagreen;
+
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  width: 100%;
 }
 
+h1 {
+  font: small-caps bold 50px/1 sans-serif;
+}
+h4{
+  color: white;
+  font-style: italic;
+}
 ##########################
 /* used for home page only*/
+
+
+.topnav {
+    background-color: darkseagreen;
+    overflow: hidden;
+    font: small-caps bold 24px/1 sans-serif;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    width: 25%;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.main {
+  background:url(
+
+data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAALElEQVQoU2NkIBIwEqmOgTyFVUGWM2E2tK07no5sG4qJ1FeIz2PkeYYqJgIAjzcMC/Dq9WcAAAAASUVORK5CYII=
+    ) repeat;
+}
 
 #website-title{
 
