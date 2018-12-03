@@ -13,3 +13,5 @@ $('#Tree4').click(function(){
 $('#Tree5').click(function(){
         $('#Tree5').hide();
     });
+
+$('.carousel').carousel()
