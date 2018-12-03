@@ -20,9 +20,11 @@ h4{
 /* used for home page only*/
 
 
+
+/* Style the links inside the navigation bar */
 .topnav {
     background-color: darkseagreen;
-    overflow: hidden;
+
     font: small-caps bold 24px/1 sans-serif;
     padding-left: 25px;
     padding-right: 25px;
@@ -31,14 +33,22 @@ h4{
 
 /* Style the links inside the navigation bar */
 .topnav a {
+  background-color: darkseagreen;
+
+  font: small-caps bold 24px/1 sans-serif;
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 100%;
+
     float: left;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    width: 25%;
+    width: 50%;
 }
+
 
 /* Change the color of links on hover */
 .topnav a:hover {
